@@ -70,11 +70,19 @@ input {
 }
 
 input:focus { 
-    border: 3px solid #3f7010; 
+    border: 3px solid #4f3294; 
 }
 
 input:required:focus {
-    border: 2px solid #ff55a4;
+    border: 2px solid #cfa7ba;
+}
+
+input:invalid:focus {
+    border: 5px solid #cfa7ba;
+}
+
+input:required:valid {
+    border: 5px solid #58c774;
 }
 
 button {
