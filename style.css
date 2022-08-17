@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://db.onlinewebfonts.com/c/fd1ad3a0f95210975d2f5607501020b5?family=Norse');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background-color: #6b6b6b;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0 ;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    gap: 1rem;
+    width: 30rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    width: 100%;
+
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+input {
+    border: 1px solid #606670;
+    height: 2.5rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    outline: 0
+}
+
+input:focus { 
+    border: 3px solid #3f7010; 
+}
+
+input:required:focus {
+    border: 2px solid #ff55a4;
+}
+
+button {
+    margin-top: 2rem;
+    height: 4rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 1px;
+    background-color: #1b2512;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
